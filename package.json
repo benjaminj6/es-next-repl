@@ -1,0 +1,24 @@
+{
+  "name": "es-next-testing",
+  "version": "1.0.0",
+  "description": "A playground for next generation javascript",
+  "main": "index.js",
+  "author": "Benjamin Johnson",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "require": "babel-register"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
